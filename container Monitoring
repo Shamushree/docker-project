@@ -1,0 +1,9 @@
+docker stop con id
+docker start con id
+docker rm con id
+docker rm -f con id
+docker rmi httpd
+docker logs id | name
+docker inspect id | name
+docker stats (id | name => optional)
+docker top id | name
