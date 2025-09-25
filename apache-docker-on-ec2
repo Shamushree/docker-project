@@ -1,0 +1,9 @@
+sudo docker pull httpd
+docker images
+docker run -itd -p "8000:80" httpd
+docker ps => running container only visiable
+docker ps -a => all containers visiable
+docker exec -it container id /bin/bash
+apt-get update
+apt install vim
+exit
